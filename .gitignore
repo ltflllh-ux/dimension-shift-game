@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables (NEVER commit these!)
+.env
+.env.local
+.env.production
+*.key
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# API Keys (NEVER commit these!)
+*api-key*
+*apikey*
+*.pem
+*.cert
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Production build
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Steam SDK (if included)
+steamworks_sdk/
+
+# User data
+user-data/
+achievements-log/
